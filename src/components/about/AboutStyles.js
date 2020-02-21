@@ -13,6 +13,7 @@ export const AboutDiv = styled.div`
   align-items: center;
   background-color: teal;
   color: white;
+  // border-radius: 20px;
 `;
 
 export const PhotoBox = styled.div`
