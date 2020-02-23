@@ -10,6 +10,9 @@ export default function About() {
       <PhotoBox>
         <AboutPhotos />
       </PhotoBox>
+      <div className="bottomDiv">
+        <h1>populate me with data or something</h1>
+      </div>
     </AboutDiv>
   );
 }

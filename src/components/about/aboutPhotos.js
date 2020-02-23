@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTransition, animated, config } from "react-spring";
 import "./aboutphot.css";
+
 const slides = [
   {
     id: 0,
@@ -23,7 +24,7 @@ const aboutPhotos = () => {
   const [index, set] = useState(0);
   const transitions = useTransition(slides[index], item => item.id, {
     from: { opacity: 0 },
-    enter: { opacity: 1 },
+    enter: { opacity: 2 },
     leave: { opacity: 0 },
     config: config.molasses
   });
